@@ -1,6 +1,6 @@
 import random
 
-#Rules r > s, s > p, p > r
+#Rules Rock > Scissor, Scissor > Paper, Paper > Rock
 def game():
     user = input("Rock Paper of Scissor?: ").lower().strip()
     comp = random.choice(['rock','paper','scissor'])
